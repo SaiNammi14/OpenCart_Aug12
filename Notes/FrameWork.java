@@ -121,5 +121,32 @@ public class FrameWork {
 	 *   *commit
 	 *   *push
 	 *   by using pull command , we can get things from remote repository to local repository.
+	 *   
+	 *  Workflow :
+	 *  ---------
+	 *  workspace : path of our project(C:\Users\sai37\Automation Scripts\OpenCart_Aug12)
+	 *  1.git init --create empty repository
+	 *  step 2 and 3 have to provide only once
+	 *  2.$ git config --global user.name "sai"
+        3.$ git config --global user.email "sai37534@gmail.com"
+        4.git status -- it gives untracked files
+        5.git add -A -- add all files and folders to staging area
+           git add file.txt
+           git add *.java --for java files
+           git add foldername
+        6.git commit -m "message"
+        7.create remote repo in git hub (https://github.com/SaiNammi14/OpenCart_Aug12.git)
+        8.git remote add origin "https://github.com/SaiNammi14/OpenCart_Aug12.git"/github url 
+        9.git push -u origin master
+        
+        if you want add more after first commit .....then need to execute from step 5 6 9.
+        
+        *to get files from remote/githug repo :
+        ---------------------------------
+        git pull 
+     
+        
+        
+        
 	 */
 }
