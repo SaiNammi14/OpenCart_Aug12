@@ -144,7 +144,19 @@ public class FrameWork {
         *to get files from remote/githug repo :
         ---------------------------------
         git pull 
-     
+     *we can have also branches as child of master branch
+     *if you don't have project available in your local/eclipse then you have to execute clone.
+     *git clone "repo url" <folder>.
+     *
+     Jenkins:
+     --------
+     *it is a tool for CI
+     *CI -- dev-test-devops
+     *CD -- devops-prod
+     * CI - is our(QA) responsibility
+     * CD - is devops responsibility
+     *
+     *
         
         
         
