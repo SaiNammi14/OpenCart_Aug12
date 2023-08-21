@@ -1,6 +1,4 @@
-package day40;
 
-public class FrameWork {
 
 	/*
 	 * Framework :
@@ -159,6 +157,71 @@ public class FrameWork {
      *
         
         
+        
+      Once everything is ready then we can create own pageobjects and testcaes for particular elements/tests.
+      
+    --------------------------------------------------------------------------------------------------------------------
+    
+    
+    There are 2 types of aspects :
+      1.Test Driven Development (TDD)--
+         *Which means writing test cases in testng(automating the manual test cases)
+         *Only Technical ppl understand this
+        Ex : TestNG , jUnit
+      2.Behaviour Driven Development(BDD)--
+        *this can be understand by technical and non-technical people.
+        *will define features of applications
+        *Maintain 3 major files :
+        -------------------
+         1.Feature file-- gherkin language(Given,when,then,etc....)
+            Scenarios
+            Steps
+         2.Step Definitions file -- 
+           *contains implementation(Selenium Driver code)
+           *it should contain same lines of code as above mentioned steps in feature file.if you not written then it won't work.
+         3.testRunner file  --
+           *  jUnit class 
+           *  executes all the steps which you mention in feature file.
+         
+         For Example : Feature 
+                          Scenario2
+                             Step1
+                             Step2
+                             .....
+                          Scenario2
+                             Step1
+                             Step2
+                             .....
+                         
+        Ex:Cucumber
+      Usage of gherkin language :
+      ------------------------------
+      xyz.feature
+      -------------
+      feature :<<feature name>>
+      
+      Scenario : <<Scenario name>>
+	        pre-condition
+	        action/steps
+	        validation
+ 
+       Given Condition1
+           and Condition2
+           .........
+       When action1
+          and action2
+          ..........
+       Then validation1
+         and Validation2
+         ............
+      
+        
+       
+      
+      
+      Cucumber Framework :
+      --------------------
+      
         
 	 */
 }
