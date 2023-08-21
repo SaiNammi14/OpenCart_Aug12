@@ -146,7 +146,7 @@
      *if you don't have project available in your local/eclipse then you have to execute clone.
      *git clone "repo url" <folder>.
      *
-     Jenkins:
+     Jenkins: java -jar jenkins.war --httpPort=8081
      --------
      *it is a tool for CI
      *CI -- dev-test-devops
